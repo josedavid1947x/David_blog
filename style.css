@@ -1,0 +1,115 @@
+:root{
+    --color-primary: white;
+    font-size: 16px;
+
+    --letter-primary: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --letter-secondary: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+/* Estilos navbar */
+.navbar{
+    background-color: #212121;
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    font-family: var(--letter-secondary);
+    font-size: 1.5rem;
+    padding-left: 5rem;
+}
+
+ .navbar .menu{
+    display: flex;
+    gap: 3rem;
+    font-family: var(--letter-primary);
+    padding-right: 10em;
+    color: red;
+} 
+/* Estilos al home*/
+.home{
+    padding-top: 15rem;
+    padding-bottom: 20rem;
+    background-image: url(./image/image-code2.png);  
+}
+.content-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.img-home{
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.img-home img{
+    width: 100%;
+}
+
+.info-home{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+ .title-home-primary{
+    font-size: 200%;
+    font-family: var(--letter-primary);
+    background-color: #1B2430;
+}
+
+.title-home-secondary{
+    font-size: 250%;
+    font-family: var(--letter-secondary);
+    color: white;
+    background-color: #1B2430;
+}
+
+.title-home-tertiary{
+    font-size: 200%;
+    font-family: var(--letter-primary);
+    background-color: #1B2430;
+}
+/* Estilos al About*/
+
+.about{
+    padding-top: 15rem;
+    padding-bottom: 20rem;
+    background-color: #212121;
+}
+
+.about h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
