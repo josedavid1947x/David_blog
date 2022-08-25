@@ -48,7 +48,6 @@ a{
     gap: 3rem;
     font-family: var(--letter-primary);
     padding-right: 10em;
-    color: red;
 } 
 /* Estilos al home*/
 .home{
@@ -103,6 +102,10 @@ a{
 /* Estilos al About*/
 
 .about{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
     padding-top: 15rem;
     padding-bottom: 20rem;
     background-color: #212121;
@@ -112,4 +115,13 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
+
+.about p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
